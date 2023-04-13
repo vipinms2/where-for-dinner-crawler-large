@@ -49,7 +49,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080"
-        image: taplongevity.azurecr.io/tapalong/where-for-dinner-crawler-large@sha256:f648ccb129f459f577c5a3921815f1aba102a4d214ba1642a259505b9df46793
+        image: taplongevity.azurecr.io/tapalong/where-for-dinner-crawler-large@sha256:1c843bab7de47564310e7ef7ae7cd353d926ec5875bac300c387cea5b7b35359
         name: workload
         ports:
         - containerPort: 8080
